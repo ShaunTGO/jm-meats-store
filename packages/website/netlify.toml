@@ -7,8 +7,9 @@
 
 [build.environment]
   NEXT_PUBLIC_JSON_DATA_FOLDER="/data/json/"
+  NEXT_PUBLIC_DATA_FETCHING="ssg"
 
 [template.environment]
-  SITE_URL="https://magical-dodol-369c8a.netlify.app/"
+  SITE_URL="jmmeats.netlify.app/"
   NEXT_PUBLIC_CL_CLIENT_ID="wwlfp01q7QrKYJgVgHqA5h4Qm1BXbUO9GSPH479UBOk"
   NEXT_PUBLIC_CL_ENDPOINT="https://jmmeats.commercelayer.io"
