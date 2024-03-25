@@ -27,6 +27,16 @@ const nextConfig = {
 
   env: envs,
 
+  redirects: async () => {
+    return [
+      {
+        source: '/',
+        destination: '/en-US',
+        permanent: true,
+      },
+    ]
+  },
+
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
